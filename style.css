@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color:blue;
+  text-align:center;
+  background-color:yellow;
+  border:2px solid green;
+  padding:10px;
+}
+p {
+  text-align:center;
+}
+
+p.aligncenter {
+	text-align:center;
+}
