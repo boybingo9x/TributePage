@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<h1>Survey Form</h1>
+<form name="form1">
+	Let us know how we can improve freeCodeCamp<br><br>
+	<div class="grid-container">
+	<div style="text-align:right">
+	* Name: <br><br>
+	</div>
+	<div style="text-align:left">
+	<input type="text" name="Name"><br><br>
+	</div>
+	<div style="text-align:right">
+	* Email: <br><br>
+	</div>
+	<div style="text-align:left">
+	<input type="text" name="Email"><br><br>
+	</div>
+	<div style="text-align:right">
+	* Age: <br><br>
+	</div>
+	<div style="text-align:left">
+	<input type="text" name="Age"><br><br>
+	</div>
+	<div style="text-align:right">
+	Which option best desribe your current role? <br><br>
+	</div>
+	<div style="text-align:left">
+	<select name="roles">
+		<option value="student">Student</option>
+		<option value="professor">Professor</option>
+		<option value="engineer">Engineer</option>
+		<option value="manager">Manager</option>
+	</select><br><br>
+	</div>
+	<div style="text-align:right">
+	* How likely is that you would recommend freeCodeCamp to a friend? <br><br><br><br><br><br>
+	</div>
+	<div style="text-align:left">
+	<input type="radio" name="likely" value="Definitely"> Definitely<br><br>
+	<input type="radio" name="likely" value="Maybe"> Maybe<br><br>
+	<input type="radio" name="likely" value="Notsure"> Not sure<br><br>
+	</div>
+	<div style="text-align:right">
+	What do you like most in FCC <br><br>
+	</div>
+	<div style="text-align:left">
+	<select>
+		<option value="selectoption">Select an option</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select><br><br>
+	</div>
+	<div style="text-align:right">
+	Things that should be improved in the future <br>(Check all that apply) <br><br><br><br><br>
+	</div>
+	<div style="text-align:left">
+	<input type="checkbox" name="likely" value="Frontend"> Front-end Projects <br><br>
+	<input type="checkbox" name="likely" value="Backend"> Back-end Projects <br><br>
+	<input type="checkbox" name="likely" value="Data"> Data Visualization <br><br>
+	</div>
+	</div>
+	<button class="button" name="submit">Submit form</button>
+</form>
+
+
+
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+</html>
