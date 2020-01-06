@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="newbie">
+  <link rel="stylesheet" href="style.css">
+  <!-- <meta http-equiv="refresh" content="1"> -->
+
+</head>
+
+<body>
+  <p class="headpage">
+  The book series&nbsp&nbsp&nbsp&nbspTestimonial&nbsp&nbsp&nbsp&nbspThe Author&nbsp&nbsp&nbsp&nbspFree resources
+  </p>
+  <p class="bodypage">
+  <div style="text-align:center;font-size:200%;">
+  <strong>You dont know JavaScript</strong><br><br><br>
+  </div>
+  <div class="grid-container">
+  <div style="text-align:center">
+  <img src="matbiec.jpg" alt="Mat Biec" align="middle">
+  </div>
+  <div style="text-align:center">
+  Tình đầu<br>
+  một thời cứ ngỡ<br>
+  một đời<br>
+  </div>
+  </div>
+  </p>
+  <p class="headpage">
+  <br><br><br><span style="font-size:30px;">Sold out</span><br><br><br><br><br>
+  <p>Date/Time: <span id="datetime"></span></p>
+  </p>
+  <!-- <script src="js/scripts.js"></script> -->
+  <script>
+  var dt = new Date();
+  document.getElementById("datetime").innerHTML = dt.toLocaleString();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+- Difference between class and ID: class can use multiple but ID should be unique (it OK to duplicate for CSS but will have issue with Javascript)
+- var and let: let is block-scoped but var is function-scoped or global-scoped

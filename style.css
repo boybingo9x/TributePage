@@ -1,5 +1,5 @@
 body {
-  background-color: powderblue;
+  background-color: #d3d3d3;
 }
 h1 {
   color:blue;
@@ -40,6 +40,7 @@ form {
 	display:grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-column-gap:5px;
+	font-size:200%;
 }
 
 .button {
@@ -53,3 +54,16 @@ form {
   font-size: 16px;
 }
 
+.headpage{
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-family:arial;
+}
+
+.bodypage {
+	background-color:#d3d3d3;
+	color:black;
+	text-align:center;
+	font-family:arial;
+}
